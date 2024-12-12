@@ -60,6 +60,7 @@
     {
       "group": "Essentials",
       "pages": [
+        "essentials/create-ticket",
         "essentials/markdown",
         "essentials/code",
         "essentials/images",
