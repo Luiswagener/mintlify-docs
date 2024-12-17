@@ -60,7 +60,10 @@
     {
       "group": "Essentials",
       "pages": [
+        "essentials/symfonyproject-instalation",        
+        "essentials/create-company",
         "essentials/create-ticket",
+        "essentials/create-user",
         "essentials/markdown",
         "essentials/code",
         "essentials/images",

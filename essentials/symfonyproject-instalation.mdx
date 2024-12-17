@@ -1,0 +1,45 @@
+---
+title: 'Symfony-Projekt installieren'
+description: 'Eine Schritt-für-Schritt-Anleitung zur Installation eines Symfony-Projekts'
+---
+
+
+## 1. **Projektdateien vorbereiten**  
+- Klonen Sie das Repository oder laden Sie die Dateien herunter:  
+  ```bash
+  git clone <repository-url>
+  cd <project-folder>
+  ```
+
+## 2. **Abhängigkeiten installieren** 
+
+- Führen Sie composer install aus, um alle PHP-Abhängigkeiten zu installieren:
+
+  ```bash
+  composer install
+  ```
+
+## 3. **Abhängigkeiten installieren** 
+
+- Überprüfen und konfigurieren Sie die .env-Datei für Ihre Umgebung:
+  - Stellen Sie sicher, dass die Datenbankverbindung korrekt ist:
+    ```env
+      DATABASE_URL="mysql://user:password@127.0.0.1:3306/db_name"
+    ```
+  - Passen Sie weitere Umgebungsvariablen wie API-Keys oder Mailer-Details an.
+
+  ## 4. **Datenbank einrichten**
+
+  - Überprüfen Sie, ob die Datenbank existiert, oder erstellen Sie sie:
+    ```bash
+      php bin/console doctrine:database:create
+    ```
+  - Führen Sie Migrationen aus, um die Datenbanktabellen zu erstellen:
+    ```bash
+      php bin/console doctrine:migrations:migrate
+    ```
+## 5. **Cache leeren**
+- Löschen Sie den Cache und setzen Sie die notwendigen Berechtigungen:
+    ```bash
+      php bin/console cache:clear
+    ```
