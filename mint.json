@@ -29,7 +29,7 @@
     },
 
     {
-      "group": "Admin Dokumentation",
+      "group": "Kunden Dokumentation",
       "pages": [
         "admin-dokumentation/company/create-company",
         "admin-dokumentation/company/edit-company",
