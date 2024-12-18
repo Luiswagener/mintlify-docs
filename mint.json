@@ -15,81 +15,38 @@
       "to": "#07C983"
     }
   },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
+ 
   "navigation": [
+
     {
-      "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+      "group": "Benutzer Dokumentation",
+      "pages": [ 
+        "benutzer-dokumentation/sign-in",
+        "benutzer-dokumentation/create-ticket",
+        "benutzer-dokumentation/edit-ticket",
+        "benutzer-dokumentation/add-comment-ticket"
       ]
     },
+
     {
-      "group": "Essentials",
+      "group": "Admin Dokumentation",
       "pages": [
-        "essentials/symfonyproject-instalation",        
-        "essentials/create-company",
-        "essentials/create-ticket",
-        "essentials/create-user",
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "admin-dokumentation/company/create-company",
+        "admin-dokumentation/company/edit-company",
+        "admin-dokumentation/company/delete-company",
+        "admin-dokumentation/user/create-user",
+        "admin-dokumentation/user/edit-user",
+        "admin-dokumentation/user/delete-user"
       ]
     },
+
     {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+      "group": "Entwickler Dokumentation",
+      "pages": [      
+        "entwickler-dokumentation/symfonyproject-instalation"
       ]
     }
-  ],
-  "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
-  }
+
+  ]
+
 }
