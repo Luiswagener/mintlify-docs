@@ -1,21 +1,41 @@
 ---
-title: 'Wie melde ich mich an'
-description: 'Schritte wie man ein sich anmeldet'
+title: "Wie erstelle ich Playlists"
+description: "Schritte zur Anlage und Konfiguration einer neuen Playlist"
 ---
 
-## **Wie melde ich mich an?**
-### 1. **Rufen Sie das Loginformular des Dashboards auf**
-[Klicken sie hier um zu dem Anmeldeportal des Digital Signage zu gelangen](https://ticketsystem.luiswagener.net/login)
+## **Wie erstelle ich eine neue Playlist?**
 
-### 2. **Fügen Sie ihre Zugangsdaten ein"**
-**Fügen Sie anschließend Ihre Anmeldedaten ein**
+### 1. **Navigieren Sie zum Playlist-Bereich**
+1. Melden Sie sich im Dashboard an.
+2. Klicken Sie in der Seitenleiste auf **„Playlists“**.
 
-    - Geben Sie im Oberen Feld die E-Mail Adresse an die sie von ihrem Admin zur verfügung gestellt bekommen haben.
+### 2. **Neue Playlist anlegen**
+1. Oben rechts klicken Sie auf die Schaltfläche **„Hinzufügen“**.
+2. Es öffnet sich ein Formular mit folgenden Eingabefeldern:
 
-    - Geben Sie im Unteren Feld das Passwort passend zu Ihrer E-Mail ein die sie von ihrem Admin zur verfügung gestellt bekommen haben.
+    - **Name**
+      Vergeben Sie einen aussagekräftigen Titel, z. B. „Kunden-Info“.
 
-### 3. Klicken Sie anschließend auf "Anmelden"
+### 3. **Medien zur Playlist hinzufügen**
+1. Klicken Sie auf **„Medien auswählen“** oder **„Drag & Drop hierher“**.
+2. Im sich öffnenden Dialog setzen Sie Häkchen bei allen **Media-Elementen**, die in dieser Playlist abgespielt werden sollen.
+3. Bestätigen Sie Ihre Auswahl mit **„Übernehmen“**.
 
-![Anmelden Anklicken](/images/login.png)
+### 4. **Anzeigedetails konfigurieren**
+1. Ordnen Sie die Reihenfolge der Medien per Drag-&-Drop im Tabellen- oder Listenmodus.
 
-Nun landen Sie, falls die Anmeldedaten korrekt waren, auf dem Dashboard wo Sie nun Ihre Bildschirme und Playlisten erstellen können.
+### 5. **Playlist speichern**
+1. Prüfen Sie alle Eingaben im Formular.
+2. Klicken Sie auf **„Speichern“**, um die Playlist anzulegen.
+3. Sie landen anschließend wieder in der Übersicht, wo Ihre neue Playlist als Eintrag erscheint.
+
+### 6. **Playlist aktivieren**
+1. In der Playlist-Übersicht klicken Sie beim gewünschten Eintrag auf **„Bearbeiten“**.
+2. Setzen Sie den Status auf **„Aktiv“**.
+3. Klicken Sie erneut auf **„Speichern“**.
+4. Die Playlist wird nun in Echtzeit via socket.io an alle konfigurierten Screens übertragen und abgespielt.
+
+---
+
+> **Hinweis:**
+> - Änderungen an einer aktiven Playlist werden innerhalb weniger Sekunden auf den Bildschirmen übernommen.
